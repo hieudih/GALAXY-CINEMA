@@ -1,0 +1,6 @@
+Tài khoản thử:
+  Khách hàng : an.nguyen@gmail.com / 123456   (các khách khác: xem cột MatKhau trong tblKhachHang)
+  Quản lý    : quanly / quanly@123
+  Soát vé    : soatve / soatve@123
+
+

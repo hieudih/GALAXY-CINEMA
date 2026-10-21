@@ -1,0 +1,22 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="GalaxyCinemaWeb.SiteMaster" %>
+<!DOCTYPE html>
+<html lang="vi">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Galaxy Cinema - Đặt vé xem phim</title>
+    <link href="~/Content/site.css" rel="stylesheet" runat="server" />
+</head>
+<body>
+    <header class="topbar">
+        <a class="logo" href="<%: ResolveUrl("~/Default.aspx") %>">GALAXY CINEMA</a>
+        <nav><asp:Literal ID="litMenu" runat="server" /></nav>
+    </header>
+    <form runat="server">
+        <main class="container">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </main>
+    </form>
+    <footer class="footer">Nhóm 4 - Phân tích hệ thống bán vé xem phim GALAXY CINEMA</footer>
+</body>
+</html>
